@@ -1,0 +1,33 @@
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .photo ul li {
+    display: inline-block; /* Display items horizontally */
+    margin-right: 20px; /* Add space between images */
+  }
+  
+  .photo ul li:last-child {
+    margin-right: 0; /* Remove right margin from the last image */
+  }
+  h1{
+    margin-top: 15px;
+    color: rgb(108, 106, 106);
+    font-size: 30px;
+    margin-left: 77px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-bottom: 0;
+  }
+  
+ul li img {
+    height: 325px;
+    width: 325px;
+
+}

@@ -1,0 +1,91 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 75px;
+    margin-right: 85px;
+    
+}
+.container ul{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    align-items: center;
+    list-style: none;
+    margin-left: 370px;
+}
+.container ul li  svg{
+    cursor: pointer;
+    
+}
+ul li{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li svg{
+    height: 25px;
+    width: 25px;
+}
+a:hover{
+    color:  rgb(24, 171, 51);
+}
+.container img{
+   
+    height: 50px;
+    width: 255px;
+    border-radius: 15px;
+}
+.textbar{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.textbar input{
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-left: none; /* Remove border overlap with button */
+    flex: 1;
+    background-color: #ffffff;
+   
+}
+.textbar button{
+    background-color: #e7e7e7;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+select{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600; 
+    border: none;
+    width: 145px;
+    font-size: medium;
+    cursor: pointer;
+
+}
+select option:hover{
+     color:  rgb(24, 171, 51);
+
+ }  
+select option{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600; 
+}
+

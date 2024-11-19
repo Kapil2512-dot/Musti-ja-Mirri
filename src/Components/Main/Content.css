@@ -1,0 +1,55 @@
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    bottom: 0;
+    
+    z-index: 1000;
+    background-color: #fff;
+    border-top: 1px solid   rgb(144, 143, 143);   
+    border-bottom: 1px solid rgb(144, 141, 141); 
+    border-left: none;             
+    border-right: none;
+
+}
+.container1 ul{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    list-style: none;
+}
+.List ul li a:hover{
+    color: black;
+}
+ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.List ul li .active {
+    color: green !important; /* Ensures the color stays green */
+  }
+  
+  .List ul li a:hover {
+    color: inherit; /* Keeps the hover color the same as the current color */
+  }
+  
+.icon{
+    margin-right: 85px;
+    cursor: pointer;
+
+}
+
+.container1 .List{
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 90px;
+}
+.rgb{
+    color:  rgb(24, 171, 51);
+}
+.rbg:hover{
+    color: #fff;
+}
